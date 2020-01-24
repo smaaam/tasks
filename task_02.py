@@ -1,0 +1,6 @@
+print('Enter your birth year: ')
+birthYear = input()
+print('Enter current year: ')
+currentYear = input()
+currentAge = int(currentYear) - int(birthYear)
+print('You are ' + str(currentAge) + ' years old.')
